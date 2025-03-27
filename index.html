@@ -13,19 +13,65 @@
             color: #333;
             line-height: 1.6;
         }
+        header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #2980b9;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
         h1 {
             color: #2c3e50;
-            text-align: center;
             border-bottom: 2px solid #3498db;
             padding-bottom: 10px;
         }
-        p {
-            text-align: center;
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Our New Society</h1>
-    <p>This is the beginning of our exciting project!</p>
+    <header>
+        <h1>Welcome to Our New Society</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Our Society</h2>
+        <p>We are a community dedicated to making positive changes in our world. Our mission is to collaborate, innovate, and create meaningful impact through collective effort.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Our Current Projects</h2>
+        <ul>
+            <li>Community Development Initiative</li>
+            <li>Environmental Sustainability Program</li>
+            <li>Education Outreach</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@newsociety.org</p>
+        <p>Phone: (555) 123-4567</p>
+    </section>
 </body>
 </html>
